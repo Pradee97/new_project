@@ -1,0 +1,379 @@
+.man a {
+    text-decoration: none;
+    color: #1eff00;
+    cursor: pointer;
+  
+  }
+  
+  .table{
+    width:  -webkit-fill-available !important;
+  }
+  
+  /* .bg_img {
+    background-image: url(/src/assets/img/bg22.jpg);
+  
+  } */
+  
+  .hi {
+    position: absolute;
+    padding-left: 230px;
+    padding-top: 35px;
+  }
+  
+  .back_btn {
+    background-color: rgb(15, 15, 15);
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    color: white;
+  
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+  }
+  
+  .log {
+    float: right;
+  }
+  
+  .input-group {
+    float: right;
+    width: 70%;
+  }
+  
+  .sic {
+    color: #010c0e;
+  }
+  
+  .lo {
+    float: right;
+    margin-left: 1000px;
+  }
+  
+  .ss {
+    margin-left: 10px;
+  }
+  
+  .kandan {
+  
+    margin-left: 200px;
+    line-height: inherit;
+  }
+  
+  .f {
+    background-color: #ccc0c0;
+  }
+  
+  .bt {
+    height: 35px;
+  }
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-items: stretch; */
+    width: 26.9% !important;
+  }
+  
+  .active {
+    color: rgb(3, 122, 49);
+  }
+  
+  .inactive {
+    color: rgb(224, 21, 21);
+  }
+  
+  .vi a {
+    text-decoration: none;
+    color: #ff0000;
+  
+  }
+  
+  .ba a {
+    text-decoration: none;
+    color: #010c0e;
+  
+  }
+  
+  .e a {
+    text-decoration: none;
+    color: #f1f2f5;
+  }
+  
+  /* .search-width {
+      width: 33.3%;
+     } */
+  
+  
+  .center {
+    text-align: center;
+  }
+  
+  .pagination {
+  
+    justify-content: center;
+  }
+  
+  .pagination a {
+    color: black;
+  
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid rgb(235, 222, 222);
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .nodata {
+    color: #ff0000;
+  
+  }
+  
+  .navbar {
+    position: relative;
+    display: flow-root;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .update {
+    text-align: center;
+  }
+  
+  .t {
+    color: rgb(245, 239, 239);
+    cursor: pointer;
+  }
+  
+  .b {
+    border: 2px solid rgb(179, 14, 14);
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 48px;
+    width: 370px;
+    border-radius: 10px;
+    height: 280px;
+    float: left;
+    margin-left: 290px;
+  
+    text-align: center;
+    padding-top: 5px;
+  
+  }
+  
+  .cc {
+    color: #ddd;
+    font-size: large;
+    align-items: flex-end
+  }
+  
+  .tt {
+    /* --bs-table-bg: transparent;
+      --bs-table-accent-bg: transparent;
+      --bs-table-striped-color: #212529;
+      --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+      --bs-table-active-color: #212529;
+      --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+      --bs-table-hover-color: #212529;
+      --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+      width: 80%; */
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+    margin-left: 230px;
+    width: -webkit-fill-available;
+  }
+  
+  .colorfix {
+    color: #d4e7e7 !important;
+    cursor: pointer;
+    background-color: #000000;
+  
+  }
+  
+  .emp {
+    margin-top: 9px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  .padding {
+    margin-left: 258px;
+    margin-top: 60px;
+  }
+  
+  .margin {
+    margin-top: 40px;
+  }
+  
+  .c {
+    background-color: #010c0e;
+  }
+  
+  .star {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  .activephoto {
+    height: 230px;
+    width: 70%;
+  }
+  
+  .inactivephoto {
+    height: 230px;
+    width: 70%;
+  }
+  
+  .f {
+    text-align: center;
+  }
+  
+  .te {
+    margin-left: 255px;
+  }
+  
+  .pa {
+    margin-top: 30px;
+  }
+  
+  /* <h4 class="t"><i class="fa-brands fa-squarespace"></i> BLACK SPRING</h4> */
+  
+  .body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 43px;
+    left: 0;
+    background-color: rgba(248, 163, 6, 0.616);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 9px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+   .sidenav a:hover {
+    color: #000000;
+  cursor: pointer;
+  } 
+  
+  .main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+  
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  
+  .side {
+    margin-left: 240px;
+  }
+  
+  .n {
+    margin-left: 500px;
+  }
+  
+  .fil {
+    height: 30px;
+  }
+  
+  .da {
+    line-height: 1.7;
+  }
+  
+  .col {
+    background-color: rgb(223, 217, 217);
+  }
+  
+  .co {
+    background-color: rgb(223, 217, 217);
+  
+  }
+  .social{
+    margin-top: 25%;
+    display:-webkit-inline-box;
+  
+  
+  }
+  .mail{
+    margin-right: 1px;
+    border-radius: 50%;
+    background-color: #f7f3f3;
+    padding:40%;
+  margin-left: -10px;
+    
+  }
+  .mail:hover{
+    background-color: #15e264;
+  }
+  .btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  .login-form{
+    width: 556px;
+    margin: 50px;
+    height: 400px;
+  }
+  .text-class{
+    text-align: center;
+  }
